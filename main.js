@@ -1,4 +1,6 @@
-const audio = new Audio("bgm.mp3");
-audio.loop = false;
-audio.volume = 0.05;
-audio.play();
+const audio = new Audio("./images/I-am-beom.mp3");
+const playButton = document.getElementById("play-button");
+
+playButton.addEventListener("click", function () {
+  audio.play();
+});
