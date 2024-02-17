@@ -6,6 +6,6 @@ playButton.addEventListener("click", function () {
 });
 
 const message =
-  "화면이 깨진다면 알아서 뷰포트 조절해서 적절한 위치에 범쌤을 위치시켜주세요..!";
+  "전체 화면으로 봐주시고, 화면이 깨진다면 알아서 뷰포트 조절해주세요..! 찡긋O_<";
 
 window.alert(message);
