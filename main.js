@@ -4,3 +4,7 @@ const playButton = document.getElementById("play-button");
 playButton.addEventListener("click", function () {
   audio.play();
 });
+
+alert(
+  "화면이 깨진다면 알아서 뷰포트 조절해서 적절한 위치에 범쌤을 위치시켜주세요..!"
+);
